@@ -1,0 +1,59 @@
+:root {
+  --text-primary: #555;
+  --text-secondary: #c5c3c3;
+
+  --site-secondary-dark: #26214a;
+  --site-secondary: #2a2552;
+  --site-secondary-light: #6a6686;
+  --site-secondary-bg: #eae9ee;
+
+  --site-primary-dark: #34bf9e;
+  --site-primary: #3ad4af;
+  --site-primary-light: #c6f6d5;
+  --site-primary-lighter: #ebfbf7;
+  --site-primary-bg: #f8fcfb;
+
+  --box-shadow-black1: rgba(0, 0, 0, 0.1);
+  --box-shadow-black05: rgba(0, 0, 0, 0.05);
+  --box-shadow-black02: rgba(0, 0, 0, 0.02);
+
+  /* mandate colors for components */
+  --black: #212529;
+  --white: #ffffff;
+  --blue-bg: #e9f2fc;
+  --dark-yellow: #e4ad3a;
+  --yellow: #fdc040;
+  --secondary-yellow: #feebc8;
+  --dark-red: #e44646;
+  --red: #fd4e4e;
+  --secondary-red: #fed7d7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  max-width: 1500px;
+}
+
+.primary-color {
+  color: var(--site-primary) !important;
+}
+.secondary-color {
+  color: var(--site-secondary) !important;
+}
+
+.fade {
+  color: var(--site-secondary-light);
+}
+
