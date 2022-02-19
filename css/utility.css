@@ -47,10 +47,10 @@ body {
 }
 
 .primary-color {
-  color: var(--site-primary) !important;
+  color: var(--site-primary);
 }
 .secondary-color {
-  color: var(--site-secondary) !important;
+  color: var(--site-secondary);
 }
 
 .fade {
