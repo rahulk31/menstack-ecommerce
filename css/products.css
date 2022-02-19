@@ -17,6 +17,8 @@
 
 .products-area {
   flex: 1;
+  overflow-y: auto;
+  height: calc(100vh - 7rem);
 }
 
 .filter-category,
@@ -59,12 +61,12 @@
 .checkbox-input,
 .brand-input {
   font-size: 1.4rem;
-  margin-top: 0.5rem;
+  margin-top: 5px;
 }
 
 .checkbox-input label,
 .brand-input label {
-  margin-left: 0.5rem;
+  margin-left: 5px;
 }
 
 /* products area */
@@ -78,7 +80,7 @@
   gap: 2rem;
 }
 .card-wrapper-v {
-  box-shadow: 0 0 10px 5px var(--box-shadow-black02);
+  box-shadow: 1px 1px 1px 0 var(--box-shadow-black1), -1px -1px 1px 0 var(--box-shadow-black1);
   margin: 2rem 0;
 }
 
@@ -92,7 +94,7 @@
   width: 2rem;
   height: 2rem;
   color: var(--red);
-  padding: 0.5rem;
+  padding: 5px;
   border-radius: 50%;
   box-shadow: 0 0 15px 10px var(--box-shadow-black05);
 }
