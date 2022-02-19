@@ -71,9 +71,11 @@
 
 .products-area {
   padding: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* gap: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 .card-wrapper-v {
   box-shadow: 0 0 10px 5px var(--box-shadow-black02);
