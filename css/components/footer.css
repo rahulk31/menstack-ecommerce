@@ -4,6 +4,7 @@
   background-color: var(--site-secondary-dark);
   padding: 3rem 5rem;
   margin-top: 5rem;
+  border-top: 3px solid var(--site-primary);
 }
 
 .footer {

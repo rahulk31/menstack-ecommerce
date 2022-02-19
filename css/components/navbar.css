@@ -19,7 +19,7 @@
 
 .navbar-middle .text-input {
   padding: 1rem 2rem;
-  box-shadow: 0 0 10px 5px var(--box-shadow-black05);
+  box-shadow: 0 0 5px 2px var(--box-shadow-black05);
 }
 
 .navbar-icon {
