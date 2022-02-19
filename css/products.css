@@ -1,0 +1,101 @@
+@import url("../css/utility.css");
+@import url("../css/components/navbar.css");
+@import url("../css/components/footer.css");
+
+#main {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.filters-area {
+  min-width: 30rem;
+  background-color: var(--site-secondary);
+  color: var(--white);
+  padding: 5rem 3rem;
+}
+
+.products-area {
+  flex: 1;
+}
+
+.filter-category,
+.filter-price,
+.filter-ratings,
+.filter-brands {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0;
+}
+
+.filter-category select {
+  margin-top: 1rem;
+  width: 90%;
+  padding: 0.7rem 1rem;
+  font-family: inherit;
+  border-radius: 3rem;
+  font-size: 1.2rem;
+}
+
+.slider-container {
+  margin: 1rem 0 0;
+  padding: 0;
+  width: 100%;
+}
+
+.slider {
+  background-color: var(--site-primary-light);
+  min-width: 75%;
+}
+
+.checkboxes-wrapper,
+.brands-wrapper {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.checkbox-input,
+.brand-input {
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+.checkbox-input label,
+.brand-input label {
+  margin-left: 0.5rem;
+}
+
+/* products area */
+
+.products-area {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 1rem; */
+}
+.card-wrapper-v {
+  box-shadow: 0 0 10px 5px var(--box-shadow-black02);
+  margin: 2rem 0;
+}
+
+.wishlist {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.icon-wishlist {
+  width: 2rem;
+  height: 2rem;
+  color: var(--red);
+  padding: 0.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 10px var(--box-shadow-black05);
+}
+
+/* footer */
+#footer {
+  margin-top: 0;
+}
