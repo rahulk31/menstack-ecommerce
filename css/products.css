@@ -50,14 +50,17 @@
   min-width: 75%;
 }
 
+.sort-wrapper,
 .checkboxes-wrapper,
 .brands-wrapper {
   margin-top: 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
+  align-items: start;
 }
 
+.radio-wrapper,
 .checkbox-input,
 .brand-input {
   font-size: 1.4rem;
@@ -80,7 +83,8 @@
   gap: 2rem;
 }
 .card-wrapper-v {
-  box-shadow: 1px 1px 1px 0 var(--box-shadow-black1), -1px -1px 1px 0 var(--box-shadow-black1);
+  box-shadow: 1px 1px 1px 0 var(--box-shadow-black1),
+    -1px -1px 1px 0 var(--box-shadow-black1);
   margin: 2rem 0;
 }
 
