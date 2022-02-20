@@ -32,6 +32,10 @@
   border: 1px dashed var(--site-secondary-light);
 }
 
+.form-title {
+  margin-bottom: 2rem;
+}
+
 .login-icons-wrapper {
   width: 100%;
   text-align: center;
