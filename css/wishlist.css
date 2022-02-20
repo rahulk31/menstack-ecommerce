@@ -1,0 +1,52 @@
+@import url("../css/utility.css");
+@import url("../css/components/navbar.css");
+@import url("../css/components/footer.css");
+
+#main {
+  max-width: 110rem;
+  margin: 5rem auto;
+}
+
+.wishlisted-products {
+  padding: 2rem;
+  box-shadow: 1px 1px var(--box-shadow-black1),
+    -1px -1px var(--box-shadow-black05);
+  border-radius: 11px;
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.wishlist-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  color: var(--site-secondary);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px dashed var(--text-secondary);
+}
+
+.card-wrapper-v {
+  box-shadow: 0 0 10px 5px var(--box-shadow-black02);
+  margin: 1rem;
+}
+
+.wishlist {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.icon-wishlist {
+  width: 2rem;
+  height: 2rem;
+  color: var(--red);
+  padding: 0.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 10px var(--box-shadow-black05);
+}
