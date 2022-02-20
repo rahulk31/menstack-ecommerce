@@ -1,0 +1,88 @@
+@import url("../css/utility.css");
+@import url("../css/components/navbar.css");
+@import url("../css/components/footer.css");
+
+#main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    max-width: 110rem;
+    margin: 5rem auto;
+}
+
+.products-listing {
+    padding: 2rem;
+    box-shadow: 1px 1px var(--box-shadow-black1), -1px -1px var(--box-shadow-black05);
+    border-radius: 11px;
+}
+
+.mycart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--site-secondary);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px dashed var(--text-secondary);
+}
+
+.select-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon-mycart {
+    width: 2rem;
+    height: 2rem;
+}
+
+.select-address select {
+    padding: 0.5rem;
+    width: 12rem;
+}
+
+.card-wrapper-h {
+    box-shadow: 0 0 10px 5px var(--box-shadow-black02);
+    width: 100%;
+    margin: 1rem 0;
+}
+
+/* price-section */
+
+.price-section {
+    padding: 3rem 2rem;
+    box-shadow: 1px 1px var(--box-shadow-black1), -1px -1px var(--box-shadow-black05);
+    border-radius: 11px;
+}
+
+.price-header {
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed var(--text-secondary);
+}
+
+.price-summary {
+    margin: 1rem auto;
+}
+
+.price-summary,
+.amount-total,
+.discount-description {
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed var(--text-secondary);
+}
+
+.amount-original,
+.amount-discounted,
+.amount-delivery,
+.amount-total,
+.discount-description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
